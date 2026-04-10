@@ -21,6 +21,11 @@ mvn clean install
 mvn test
 ```
 
+### 4. Run All Tests with report view
+```bash
+mvn clean test allure:serve
+```
+
 ## 📋 Prerequisites
 
 Before starting, ensure you have:
