@@ -17,6 +17,7 @@
     "testCase": "TC-003 - Empty Fields",
     "username": "",
     "password": "",
+    "expectedResult": "fieldErrors",
     "description": "Login form with empty fields"
   }
 ]
