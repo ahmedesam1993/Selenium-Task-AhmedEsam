@@ -65,8 +65,11 @@ Click OK
 #### 4. Verify Installation
 bash
 # Open a new Command Prompt
+```bash
 java -version
+```
 # Output: openjdk 26.0.1 2024-10-29
-
+```bash
 mvn -version
+```
 # Output: Apache Maven 3.9.0
