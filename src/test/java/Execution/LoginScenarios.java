@@ -10,7 +10,6 @@ public class LoginScenarios extends BaseTest {
 
     // TestCase 1: Successful Login
     @Test(dataProvider = "LoginTestData", description = "Test login with different scenarios")
-
     public void testLogin(JsonObject testData) {
         String testCase = testData.get("testCase").getAsString();
         String username = testData.get("username").getAsString();
@@ -36,7 +35,6 @@ public class LoginScenarios extends BaseTest {
 
         System.out.println(testCase + ": PASSED\n");
     }
-
     private void testSuccessLogin() {
 
 
