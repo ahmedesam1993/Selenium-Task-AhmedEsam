@@ -1,0 +1,23 @@
+[
+  {
+    "testCase": "TC-001 - Valid Credentials",
+    "username": "qoyod_user",
+    "password": "Test@1234",
+    "expectedResult": "success",
+    "description": "Login with valid username and password"
+  },
+  {
+    "testCase": "TC-002 - Invalid Credentials",
+    "username": "invalid_user",
+    "password": "wrong_password",
+    "expectedResult": "error",
+    "description": "Login with invalid credentials"
+  },
+  {
+    "testCase": "TC-003 - Empty Fields",
+    "username": "",
+    "password": "",
+    "expectedResult": "fieldErrors",
+    "description": "Login form with empty fields"
+  }
+]
